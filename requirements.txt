@@ -1,0 +1,6 @@
+colorama==0.4.6
+psutil==7.0.0
+PyQt6==6.9.1
+PyQt6_sip==13.10.0
+Requests==2.32.4
+urllib3==2.5.0
