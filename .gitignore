@@ -206,3 +206,5 @@ __marimo__/
 # Other files
 cookies_example.json
 servers_example.json
+servers.json
+cookies.json
