@@ -1,5 +1,5 @@
 """
-Modern PyQt6 Roblox Multi-Instance Launcher
+Modern PyQt6 Roblox Account Manager Launcher
 A GUI application for launching multiple Roblox instances with account management.
 """
 
@@ -255,7 +255,7 @@ class RobloxProcessWorker(QThread):
 
 
 class RobloxLauncherGUI(QMainWindow):
-    """Main GUI application for Roblox multi-instance launcher."""
+    """Main GUI application for Roblox account-manager launcher."""
     
     def __init__(self):
         super().__init__()
@@ -274,7 +274,7 @@ class RobloxLauncherGUI(QMainWindow):
     
     def setup_ui(self):
         """Setup the main UI."""
-        self.setWindowTitle("Roblox Multi-Instance Launcher")
+        self.setWindowTitle("Roblox Account Manager Launcher")
         self.setMinimumSize(900, 700)
         
         # Apply modern styling
@@ -1024,7 +1024,7 @@ class RobloxLauncherGUI(QMainWindow):
     def show_about(self):
         """Show about dialog."""
         about_text = """
-        <h3>Roblox Multi-Instance Launcher</h3>
+        <h3>Roblox Account Manager Launcher</h3>
         <p>A modern PyQt6 application for launching multiple Roblox instances with account management.</p>
         <p><b>Features:</b></p>
         <ul>
@@ -1085,7 +1085,7 @@ class SplashScreen(QWidget):
         layout.setContentsMargins(30, 30, 30, 30)
         
         # Title
-        title_label = QLabel("Roblox Multi-Instance Launcher")
+        title_label = QLabel("Roblox Account Manager Launcher")
         title_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title_font = QFont()
         title_font.setPointSize(16)
@@ -1136,7 +1136,7 @@ class SplashScreen(QWidget):
 def main():
     """Main application entry point."""
     app = QApplication(sys.argv)
-    app.setApplicationName("Roblox Multi-Instance Launcher")
+    app.setApplicationName("Roblox Account Manager Launcher")
     app.setApplicationVersion("2.0")
     app.setOrganizationName("RobloxLauncher")
     
