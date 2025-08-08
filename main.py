@@ -1,9 +1,3 @@
-"""
-Modern PyQt6 Roblox Account Manager Launcher
-A GUI application for launching multiple Roblox instances with account management.
-"""
-
-import sys
 import os
 import json
 import subprocess

@@ -25,11 +25,11 @@ A PyQt6 app for managing multiple accounts in Roblox. I created this app to simp
 
 ## Getting Started
 
-- Download and extract the latest release from the repository.
-- Launch the app and add your Roblox account.
-- Fill in the required information to complete setup.
-- Enter the PlaceID of the game or private server you want to join.
-- Click “Launch Roblox” to start your session.
+1. Download and extract the latest release from the repository.
+2. Launch the app and add your Roblox account.
+3. Fill in the required information to complete setup.
+4. Enter the PlaceID of the game or private server you want to join.
+5. Click “Launch Roblox” to start your session.
 
 
 > [!CAUTION]
