@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mk-gg/roblox-account-manager">
-    <img src="https://github.com/mk-gg/roblox-account-manager/blob/main/preview/preview.png" alt="Master" style="width:50%; height:auto;">
+    <img src="https://github.com/mk-gg/roblox-account-manager/blob/main/preview/preview.png" alt="Master" style="width:40%; height:auto;">
   </a>
 </p>
 
