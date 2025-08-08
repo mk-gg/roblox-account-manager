@@ -14,7 +14,7 @@ A PyQt6 app for managing multiple accounts in Roblox. I created this app to simp
 - Join games or a friend's private server
 - Supports multi-instance launching (limited to short play sessions for now)
 
-> [!TIP]
+> [!NOTE]
 > Due to Byfron restrictions, you can currently run up to 4 Roblox instances within a 15–20 minute window. After that, Roblox will automatically reduce it to 1 active instance.
 
 ## Requirements
@@ -42,6 +42,13 @@ A PyQt6 app for managing multiple accounts in Roblox. I created this app to simp
 - UI improvements
 - Cookie storage security
 
+## Anti-Virus or Unknown Publisher
+
+You might encounter a warning from your anti-virus or a prompt about an "Unknown Publisher." This happens because the application isn't digitally signed with a certificate. 💸 Certificates cost a fortune, and I’m just a humble dev trying to make tools.
+
+> [!NOTE]
+> Some antivirus programs may flag this app as a false positive. This is a common issue with unsigned executables. Feel free to check the source code if you want peace of mind!
+
 ## Contributing
 
 This project welcomes contributions and suggestions. Feel free to submit a pull request!
@@ -49,7 +56,7 @@ This project welcomes contributions and suggestions. Feel free to submit a pull 
 ## Disclaimer
 
 > [!IMPORTANT]  
-> - This project is not affiliated with or endorsed by Roblox Corporation. Use responsibly and at your own discretion.
+> This project is not affiliated with or endorsed by Roblox Corporation. Use responsibly and at your own discretion.
 
 ## License
 
